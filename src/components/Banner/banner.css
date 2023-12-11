@@ -1,0 +1,7 @@
+.banner {
+    position: relative;
+    background-image: url('../../assets/banner.jpg');
+    height: 450px;
+    background-size: cover;
+    background-position: right;
+}
