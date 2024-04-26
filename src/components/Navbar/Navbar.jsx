@@ -38,7 +38,10 @@ const Navbar = () => {
     </>
   );
   return (
-    <div id="#" className="navbar container bg-base-100 shadow-md shadow-orange-600">
+    <div
+      id="#"
+      className="navbar sticky top-0 z-10  bg-base-100 shadow-md shadow-orange-600 "
+    >
       <Container>
         <div className="navbar-start">
           <div className="dropdown">
@@ -77,7 +80,10 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end text-right">
-          <a className="text-white py-3 text-lg font-semibold rounded-md hover:bg-orange-500 cursor-pointer px-5 bg-orange-600">
+          <a
+            href="/cv.pdf"
+            className="text-white py-3 text-lg font-semibold rounded-md hover:bg-orange-500 cursor-pointer px-5 bg-orange-600"
+          >
             Download Cv
           </a>
         </div>
