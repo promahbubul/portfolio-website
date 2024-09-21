@@ -12,7 +12,7 @@ const Footer = () => {
           B
         </h2>
         {/* Foter Menu */}
-        <div className="flex flex-row gap-3 text-lg justify-center items-center text-white">
+        <div className="flex flex-row flex-wrap gap-3 text-lg justify-center items-center text-white">
           <a className="text-lg hover:text-orange-600 py-3 p-4" href="#">
             Home
           </a>

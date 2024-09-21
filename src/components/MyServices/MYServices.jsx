@@ -8,7 +8,10 @@ import serviceImage3 from "../../assets/database-storage.png";
 
 const MYServices = () => {
   return (
-    <section id="service" className="my-20 duration-300 ease-in-out  transition-all">
+    <section
+      id="service"
+      className="my-20 duration-300 ease-in-out  transition-all"
+    >
       <Container>
         <SectionHeading
           align="text-center mx-auto"
@@ -16,7 +19,7 @@ const MYServices = () => {
           justify="justify-center "
           subtitle="Provide  Wide Range of Digital Services"
         />
-        <div className="flex flex-row gap-5 justify-between">
+        <div className="flex flex-col md:flex-row gap-5 justify-between">
           <ServiceCard
             image={serviceImage1}
             title="Front End"

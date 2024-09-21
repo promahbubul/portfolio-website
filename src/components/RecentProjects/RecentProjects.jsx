@@ -3,17 +3,16 @@ import SectionHeading from "../ui/SectionHeading/SectionHeading";
 import Container from "../Container/Container";
 import RecentProjectCard from "./RecentProjectCard";
 import recentProjectImage1 from "../../assets/recent-projects/recent-project1.jpg";
-import recentProjectImage2 from '../../assets/recent-projects/recent-project2.png'
+import recentProjectImage2 from "../../assets/recent-projects/recent-project2.png";
 import recentProjectImage3 from "../../assets/recent-projects/recent-project3.avif";
 import Button from "../ui/Button/Button";
-
 
 const RecentProjects = () => {
   return (
     <section id="project" className="my-20">
       <Container>
         <SectionHeading title="Recent Projects" subtitle="My Recent Projects" />
-        <div className="flex flex-row gap-5 ">
+        <div className="flex flex-col md:flex-row gap-5 ">
           <RecentProjectCard
             image={recentProjectImage1}
             author="Mahbubul Alam"
