@@ -1,24 +1,44 @@
-<div align="center" style="color: white; background: orange; padding: 5px 0;"> 
+# portfolio
 
-## Portfolio Webstie
 
-</div>
-<br/>
-<br/>
-<a href="https://promahbubl.web.app/">
+<h2 align="center">
+  Portfolio Website<br/>
+  <a href="https://promahbubul.vercel.app/" target="_blank">Mahbubul Alam</a>
+</h2>
 
-`Live Link`
 
-</a>
+## Built With
 
-### Build with
-- React
-- TailwindCSS
+My personal portfolio <a href="https://promahbubul.vercel.app/" target="_blank">Mahbubul Alam</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-## Preview
+This project was built using these technologies.
 
-<p align="center">
-    <img src="./src/assets/screenshoot.png" alt="">
-</p>
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
+
+## Features
+- **Fully Responsive**
+- **PWA portfolio (you can install in mobile and desktop)**
+
+## Getting Started
+
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+
+## Installation and Setup Instructions
+
+1. Installation: `npm install`
+
+2. In the project directory, you can run: `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+
+### If You Like give ⭐
 
 
