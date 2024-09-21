@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <div
       id="#"
-      className="navbar sticky top-0 z-10  bg-base-100 shadow-md shadow-orange-600 "
+      className="md:navbar  top-0 z-10  bg-base-100 shadow-md shadow-orange-600 "
     >
       <Container>
-        <div className="navbar-start">
+        <div className="md:navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -34,7 +34,7 @@ const Navbar = () => {
               <NavLinks />
             </ul>
           </div>
-          <h2 className="mb-5 cursor-pointer text-center text-2xl text-[#001355] font-black">
+          <h2 className="mb-5 cursor-pointer text-center text-2xl text-[#001355] dark:text-white font-black">
             MAHB
             <span className="bg-orange-600 text-white px-1 mx-[1px] rounded-md ">
               U
@@ -47,10 +47,10 @@ const Navbar = () => {
             <NavLinks />
           </ul>
         </div>
-        <div className="navbar-end text-right">
+        <div className="md:navbar-end w-full  text-right">
           <a
             href="/cv.pdf"
-            className="text-white py-3 text-lg font-semibold rounded-md hover:bg-orange-500 cursor-pointer px-5 bg-orange-600"
+            className="text-white w-full inline-block text-center md:w-auto  py-3 text-lg font-semibold rounded-md hover:bg-orange-500 cursor-pointer px-5 bg-orange-600"
           >
             Download Cv
           </a>
